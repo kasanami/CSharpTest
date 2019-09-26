@@ -10,6 +10,7 @@ namespace CSharpTest
     {
         static void Main(string[] args)
         {
+            System.DateTimeTest.BinaryTest();
         }
     }
 }
