@@ -10,6 +10,11 @@ namespace CSharpTest
     {
         static void Main(string[] args)
         {
+            CopySpeedTest.Run();
+            CopySpeedTest.Run();
+            CopySpeedTest.Run();
+            CopySpeedTest.Run();
+            System.BufferTest.CopyTest();
             System.DateTimeTest.BinaryTest();
         }
     }

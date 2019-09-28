@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CopySpeedTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\ArrayTest.cs" />
+    <Compile Include="System\BufferTest.cs" />
     <Compile Include="System\DateTimeTest.cs" />
   </ItemGroup>
   <ItemGroup>
