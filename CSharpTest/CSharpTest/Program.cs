@@ -14,6 +14,8 @@ namespace CSharpTest
             CopySpeedTest.Run();
             CopySpeedTest.Run();
             CopySpeedTest.Run();
+            System.ArrayTest.EqualTest();
+            System.ArrayTest.CloneTest();
             System.BufferTest.CopyTest();
             System.DateTimeTest.BinaryTest();
         }

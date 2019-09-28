@@ -13,6 +13,7 @@ namespace CSharpTest.System
         /// </summary>
         public static void BinaryTest()
         {
+            Console.WriteLine($"{nameof(DateTimeTest)}.{nameof(BinaryTest)}");
             foreach (var item in ((DateTimeKind[])Enum.GetValues(typeof(DateTimeKind))))
             {
                 for (int i = 0; i < 3; i++)
@@ -21,6 +22,19 @@ namespace CSharpTest.System
                     var binary = dateTime.ToBinary();
                     var ticks = dateTime.Ticks;
                     Console.WriteLine($"DateTime({i}, {item})");
+                    Console.WriteLine($"{nameof(dateTime)}={dateTime}");
+                    Console.WriteLine($"{nameof(binary)}  ={binary:X16}");
+                    Console.WriteLine($"{nameof(ticks)}   ={ticks:X16}");
+                }
+            }
+            {
+                var now = new DateTime(2019, 1, 1);
+                foreach (var item in ((DateTimeKind[])Enum.GetValues(typeof(DateTimeKind))))
+                {
+                    var dateTime = new DateTime(now.Ticks, item);
+                    var binary = dateTime.ToBinary();
+                    var ticks = dateTime.Ticks;
+                    Console.WriteLine($"DateTime({now}, {item})");
                     Console.WriteLine($"{nameof(dateTime)}={dateTime}");
                     Console.WriteLine($"{nameof(binary)}  ={binary:X16}");
                     Console.WriteLine($"{nameof(ticks)}   ={ticks:X16}");
