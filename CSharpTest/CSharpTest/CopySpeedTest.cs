@@ -18,6 +18,8 @@ namespace CSharpTest
         const int LoopCount = 1024;
         public static void Run()
         {
+            Console.WriteLine($"====================");
+            Ksnm.Debug.WriteLineCallerInfo();
             Console.WriteLine($"{nameof(CopySpeedTest)}.{nameof(Run)} : {nameof(LoopCount)}={LoopCount}");
             /*　一例
 Array_CopyTest       : 265ms

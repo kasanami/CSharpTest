@@ -10,6 +10,8 @@ namespace CSharpTest.System
     {
         public static void CopyTest()
         {
+            Console.WriteLine($"====================");
+            Ksnm.Debug.WriteLineCallerInfo();
             // コピー元
             var ary1 = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             // コピー先

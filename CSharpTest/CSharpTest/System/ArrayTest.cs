@@ -7,6 +7,8 @@ namespace CSharpTest.System
     {
         public static void EqualTest()
         {
+            Console.WriteLine($"====================");
+            Ksnm.Debug.WriteLineCallerInfo();
             var ary1 = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             var ary2 = ary1;
             Console.WriteLine($"ary1 == ary2 = {(ary1 == ary2)}");
@@ -16,6 +18,8 @@ namespace CSharpTest.System
         }
         public static void CloneTest()
         {
+            Console.WriteLine($"====================");
+            Ksnm.Debug.WriteLineCallerInfo();
             var ary1 = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             var ary2 = (int[])ary1.Clone();
             Console.WriteLine($"ary1 == ary2 = {(ary1 == ary2)}");
@@ -25,6 +29,8 @@ namespace CSharpTest.System
         }
         public static void CopyTest()
         {
+            Console.WriteLine($"====================");
+            Ksnm.Debug.WriteLineCallerInfo();
             // コピー元
             var ary1 = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             // コピー先
