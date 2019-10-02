@@ -51,6 +51,8 @@
     <Compile Include="System\ArrayTest.cs" />
     <Compile Include="System\BufferTest.cs" />
     <Compile Include="System\DateTimeTest.cs" />
+    <Compile Include="System\OverrideTestRandom.cs" />
+    <Compile Include="System\RandomTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
