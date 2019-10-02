@@ -11,9 +11,23 @@ namespace CSharpTest.System
         /// <summary>
         /// DateTimeをシリアル化した結果をみてみる
         /// </summary>
+        public static void TicksTest()
+        {
+            Console.WriteLine($"====================");
+            Ksnm.Debug.WriteLineCallerInfo();
+            var dateTime0 = new DateTime(2000, 1, 1, 0, 0, 0);
+            var dateTime1 = new DateTime(2000, 1, 1, 0, 0, 1);
+            Console.WriteLine($"{nameof(dateTime0)}={dateTime0.Ticks}");
+            Console.WriteLine($"{nameof(dateTime1)}={dateTime1.Ticks}");
+            Console.WriteLine($"{nameof(dateTime1)}-{nameof(dateTime0)}={(dateTime1.Ticks - dateTime0.Ticks)}");
+        }
+        /// <summary>
+        /// DateTimeをシリアル化した結果をみてみる
+        /// </summary>
         public static void BinaryTest()
         {
-            Console.WriteLine($"{nameof(DateTimeTest)}.{nameof(BinaryTest)}");
+            Console.WriteLine($"====================");
+            Ksnm.Debug.WriteLineCallerInfo();
             foreach (var item in ((DateTimeKind[])Enum.GetValues(typeof(DateTimeKind))))
             {
                 for (int i = 0; i < 3; i++)

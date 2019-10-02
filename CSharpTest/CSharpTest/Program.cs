@@ -17,6 +17,7 @@ namespace CSharpTest
             System.ArrayTest.EqualTest();
             System.ArrayTest.CloneTest();
             System.BufferTest.CopyTest();
+            System.DateTimeTest.TicksTest();
             System.DateTimeTest.BinaryTest();
         }
     }
