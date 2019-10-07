@@ -20,6 +20,7 @@ namespace CSharpTest
             System.DateTimeTest.TicksTest();
             System.DateTimeTest.BinaryTest();
             System.RandomTest.OverrideTest();
+            System.Numerics.BigIntegerTest.ToByteArrayTest();
         }
     }
 }
