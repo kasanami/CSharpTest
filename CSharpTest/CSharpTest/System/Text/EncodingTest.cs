@@ -25,6 +25,10 @@ namespace CSharpTest.System.Text
             Console.WriteLine("別名で取得");
             var ShiftJISAlias = new[]
             {
+                "Shift_JIS",
+                "SHIFT_JIS",
+                "Shift-JIS",
+                "SHIFT-JIS",
                 "csShiftJIS",
                 "csWindows31J",
                 "ms_Kanji",
