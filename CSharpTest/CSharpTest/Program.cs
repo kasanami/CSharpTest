@@ -21,6 +21,10 @@ namespace CSharpTest
             System.DateTimeTest.BinaryTest();
             System.RandomTest.OverrideTest();
             System.Numerics.BigIntegerTest.ToByteArrayTest();
+            System.Text.EncodingTest.JapaneseTest();
+#if DEBUG
+            Console.ReadKey();
+#endif
         }
     }
 }

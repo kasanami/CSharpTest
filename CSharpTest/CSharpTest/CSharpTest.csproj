@@ -52,9 +52,11 @@
     <Compile Include="System\ArrayTest.cs" />
     <Compile Include="System\BufferTest.cs" />
     <Compile Include="System\DateTimeTest.cs" />
+    <Compile Include="System\DecimalTest.cs" />
     <Compile Include="System\Numerics\BigIntegerTest.cs" />
     <Compile Include="System\OverrideTestRandom.cs" />
     <Compile Include="System\RandomTest.cs" />
+    <Compile Include="System\Text\EncodingTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
