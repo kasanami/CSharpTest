@@ -22,9 +22,9 @@ namespace CSharpTest
             System.RandomTest.OverrideTest();
             System.Numerics.BigIntegerTest.ToByteArrayTest();
             System.Text.EncodingTest.JapaneseTest();
-#if DEBUG
+
+            Console.WriteLine("なにかキーを押すと終了");
             Console.ReadKey();
-#endif
         }
     }
 }
