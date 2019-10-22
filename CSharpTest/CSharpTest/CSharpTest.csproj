@@ -53,6 +53,7 @@
     <Compile Include="System\BufferTest.cs" />
     <Compile Include="System\DateTimeTest.cs" />
     <Compile Include="System\DecimalTest.cs" />
+    <Compile Include="System\MathTest.cs" />
     <Compile Include="System\Numerics\BigIntegerTest.cs" />
     <Compile Include="System\OverrideTestRandom.cs" />
     <Compile Include="System\RandomTest.cs" />

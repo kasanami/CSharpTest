@@ -19,6 +19,7 @@ namespace CSharpTest
             System.BufferTest.CopyTest();
             System.DateTimeTest.TicksTest();
             System.DateTimeTest.BinaryTest();
+            System.MathTest.All();
             System.RandomTest.OverrideTest();
             System.Numerics.BigIntegerTest.ToByteArrayTest();
             System.Text.EncodingTest.JapaneseTest();
