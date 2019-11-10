@@ -67,6 +67,7 @@
     <Compile Include="System\OverrideTestRandom.cs" />
     <Compile Include="System\RandomTest.cs" />
     <Compile Include="System\SpanTest.cs" />
+    <Compile Include="System\StringTest.cs" />
     <Compile Include="System\Text\EncodingTest.cs" />
   </ItemGroup>
   <ItemGroup>

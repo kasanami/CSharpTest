@@ -21,6 +21,7 @@ namespace CSharpTest
             System.DateTimeTest.BinaryTest();
             System.MathTest.All();
             System.SpanTest.All();
+            System.StringTest.All();
             System.RandomTest.OverrideTest();
             System.Numerics.BigIntegerTest.ToByteArrayTest();
             System.Text.EncodingTest.JapaneseTest();
