@@ -19,6 +19,7 @@ namespace CSharpTest
             System.BufferTest.CopyTest();
             System.DateTimeTest.All();
             System.MathTest.All();
+            System.LinqTest.All();
             System.SpanTest.All();
             System.StringTest.All();
             System.RandomTest.OverrideTest();
