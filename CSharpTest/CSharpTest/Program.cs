@@ -17,6 +17,7 @@ namespace CSharpTest
             System.ArrayTest.EqualTest();
             System.ArrayTest.CloneTest();
             System.BufferTest.CopyTest();
+            System.Collections.Generic.DictionaryTest.All();
             System.DateTimeTest.All();
             System.MathTest.All();
             System.LinqTest.All();
